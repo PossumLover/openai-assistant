@@ -25,8 +25,7 @@ export default function WeatherWidget({
     return (
       <div className="w-full h-full p-5 text-white flex justify-center items-center bg-gradient-to-tr from-[#b6c6c9] to-[#8fa3ad] rounded-2xl">
         <div className="flex gap-1 flex-col justify-center items-center text-lg">
-          <p>Ask an assistant about local weather</p>
-          <p>Try: what is the weather in Belgrade?</p>
+          <p>Say 'Status' for info.</p>
         </div>
       </div>
     );
