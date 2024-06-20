@@ -60,7 +60,7 @@ export default function Chat({
           <ChatMessage
             key="key"
             role="assistant"
-            content="Hello! How can I assist you today?"
+            content="Please upload your documents."
           />
         }
         {messages.map((msg, index) => (
